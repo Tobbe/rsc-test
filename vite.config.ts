@@ -8,6 +8,7 @@ export default defineConfig({
   build: {
     lib: {
       name: "RscTest",
+      fileName: (format) => `rsc-test.${format}.js`,
       entry: resolve(__dirname, "lib/main.ts"),
     },
     copyPublicDir: false,
