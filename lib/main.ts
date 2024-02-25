@@ -1,1 +1,1 @@
-export { RscForm } from "./components/RscForm";
+export { RscForm } from "./components/RscForm.js";

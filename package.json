@@ -12,10 +12,9 @@
   "module": "dist/rsc-test.es.js",
   "types": "dist/main.d.ts",
   "exports": {
-    ".": {
-      "import": "./dist/rsc-test.es.js",
-      "require": "./dist/rsc-test.umd.js"
-    }
+    "types": "./dist/main.d.ts",
+    "import": "./dist/rsc-test.es.js",
+    "default": "./dist/rsc-test.umd.js"
   },
   "files": [
     "dist"
