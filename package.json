@@ -8,13 +8,13 @@
     "url": "https://github.com/tobbe/rsc-test.git"
   },
   "type": "module",
-  "main": "dist/rsc-test.umd.js",
+  "main": "dist/rsc-test.umd.cjs",
   "module": "dist/rsc-test.es.js",
   "types": "dist/main.d.ts",
   "exports": {
     "types": "./dist/main.d.ts",
     "import": "./dist/rsc-test.es.js",
-    "default": "./dist/rsc-test.umd.js"
+    "default": "./dist/rsc-test.umd.cjs"
   },
   "files": [
     "dist"
